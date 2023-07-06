@@ -9,8 +9,8 @@ const index = () => {
       description: 'aasdsadasdasdasdadasdasdasd'
     },
     {
-      name: 'Mobile Development',
-      logo: '/images/services/setting-mobile.svg',
+      name: 'web Development',
+      logo: 'https://www.edureka.co/blog/wp-content/uploads/2018/10/How-to-become-a-Full-Stack-Web-Developer--451x300.png',
       description: 'aasdsadasdasdasdadasdasdasd'
     },
     {
@@ -56,9 +56,9 @@ const index = () => {
           {
             services?.map((items, index) => <div className='col-md-6 mb-4' key={index}>
               <a href="#" className="block max-w-sm p-6 bg-gray-900   rounded-lg shadow hover:bg-gray-800 ">
-                <img src={items?.logo} className='h-20 w-full' alt="" />
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{items?.name}</h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">{items?.description}</p>
+                <img src={items?.logo} className='h-48 w-full' alt="" />
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">{items?.name}</h5>
+                <p className="font-normal text-gray-700 dark:text-gray-400 text-center">{items?.description}</p>
               </a>
             </div>)
           }
