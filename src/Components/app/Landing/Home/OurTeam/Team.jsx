@@ -96,7 +96,7 @@ const Team = () => {
                                 </li>
                             </ul>
                     </div>
-                    <div class="text-center text-light dark:text-gray-400">
+                    <div class="text-center text-light dark:text-gray-400">l
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="Joseph Avatar"/>
                             <h3 class="mb-1 text-2xl font-bold tracking-tight dark:text-white">
                                 <a href="#">Joseph Mcfall</a>
