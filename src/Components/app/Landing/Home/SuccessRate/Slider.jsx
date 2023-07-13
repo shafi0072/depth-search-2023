@@ -20,9 +20,9 @@ const Sliders = () => {
       <Slider {...settings}>
 
         {
-          ReviewData.map((items, index) => <div class=" flex text-center w-80">
+          ReviewData.map((items, index) => <div class=" flex text-center w-80" key={index}>
 
-            <div className='flex justify-center mr-2 mb-10'>
+            <div className='flex justify-center mr-2 mb-10' >
               <div class="mb-12 md:mb-0 bg-gray-900 py-3 px-4 rounded ">
                 <div class="mb-6 flex justify-center">
                   <img
@@ -46,7 +46,7 @@ const Sliders = () => {
                 </p>
                 <ul class="mb-0 flex items-center justify-center">
                   {Array.from({ length: items.stars }, (_, index) => (
-                    <li>
+                    <li key={index}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"

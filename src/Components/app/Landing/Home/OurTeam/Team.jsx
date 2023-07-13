@@ -11,7 +11,7 @@ const Team = () => {
                 <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     
                     {
-                        TeamData?.map((items, index) => <div class="text-center text-light dark:text-gray-400">
+                        TeamData?.map((items, index) => <div key={index} class="text-center text-light dark:text-gray-400">
                         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={items.image} alt="Bonnie Avatar"/>
                             <h3 class="mb-1 text-2xl font-bold tracking-tight dark:text-white">
                                 <a href="#">{items.name}</a>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {ProjectData} from '@/src/constant/project/ProjectData'
 import Link from 'next/link';
-const index = () => {
+const Index = () => {
   const [displayCount, setDisplayCount] = useState(4);
   const handleLoadMore = () => {
     setDisplayCount(displayCount + 4);
@@ -13,8 +13,8 @@ const index = () => {
 
  <div className="row">
       {ProjectData.slice(0, displayCount).map((project, index) => (
-        <div className="col-md-3 rounded">
-        <div key={index} className="image-container rounded">
+        <div className="col-md-3 rounded" key={index}>
+        <div  className="image-container rounded">
           <img src={project.images[0].path} alt="" className="project-image rounded" />
           <div className="project-title "><div className='text-3xl'>{project.title}
           <div>
@@ -34,4 +34,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
