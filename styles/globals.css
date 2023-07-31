@@ -59,12 +59,12 @@ body {
 }
 
 .landingPage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.39)),
-    url("https://www.creative-tim.com/blog/content/images/2022/01/which-development-job-is-right-for-you.jpg");
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.212)),
+    url("/images/d0e4d719-5efd-49a6-a9d8-2a1a83f24e0f.jpg");
   height: 90vh;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   animation: zoomInOut 10s infinite alternate;
 }

@@ -26,7 +26,7 @@ export const TeamData = [
   {
     image: 'https://avatars.githubusercontent.com/u/87455332?v=4',
     name: 'Shezan Mahmud',
-    position: 'Lead Full Stack Developer',
+    position: ' Full Stack Developer',
     facebook: 'https://www.facebook.com/hiShezan',
     twitter: 'https://twitter.com',
     github: 'https://github.com'
@@ -35,7 +35,15 @@ export const TeamData = [
   {
     image: 'https://avatars.githubusercontent.com/u/82909845?v=4',
     name: 'Mehedi Hasan',
-    position: 'Front End Developer',
+    position: 'Full Stack Developer',
+    facebook: 'https://www.facebook.com/najmul.najmul.902604',
+    twitter: 'https://twitter.com',
+    github: 'https://github.com'
+  },
+  {
+    image: '/images/team/1680442021641.jpg',
+    name: 'Manik Sarker',
+    position: 'Lead Front End Developer',
     facebook: 'https://www.facebook.com/najmul.najmul.902604',
     twitter: 'https://twitter.com',
     github: 'https://github.com'

@@ -19,11 +19,7 @@ const index = () => {
         </button>
         </div>
       </div>
-      <div className="col-md-6 pt-5">
-        <div className='image_drop'>
-        <img className='mobileImage' src="https://screentimelabs.com/wp-content/uploads/2019/09/ScreenTime-Best-Parental-Control-App-gps-800x487.png" alt="" />
-        </div>
-      </div>
+     
     </div>
     </div>
   );
